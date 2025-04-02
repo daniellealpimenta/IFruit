@@ -1,6 +1,8 @@
 import promptSync from "prompt-sync";
-import { MenuOpcoes, MenuProdutoOpcoes } from "./enum";
-import { Categoria, Produto } from "./interface";
+import { MenuOpcoes} from "./enums/MenuOpcoes";
+import { MenuProdutoOpcoes } from "./enums/MenuProdutosOpcoes";
+import { Categoria } from "./interfaces/Categorias";
+import { Produto } from "./interfaces/Produtos";
 const prompt = promptSync();
 
 class Gerenciador {

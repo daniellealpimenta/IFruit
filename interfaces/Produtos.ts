@@ -1,11 +1,3 @@
-interface Categoria {
-    id: number;
-    nome: string;
-    descricao: string;
-    dataCriacao: Date;
-    produtos?: Produto[];
-}
-
 interface Produto {
     id: number;
     nome: string;
@@ -17,4 +9,4 @@ interface Produto {
     dataAtualizacao?: Date;
 }
 
-export { Categoria, Produto }
+export {Produto}
